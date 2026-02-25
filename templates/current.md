@@ -23,6 +23,16 @@ that needs to be logged in DECISIONS.md.
 
 ---
 
+## Assumptions for This Session
+<!-- State your expectations about current system state.
+     If an assumption turns out to be false mid-session, surface it immediately
+     rather than working around it silently. -->
+- [ ] [e.g., Database migrations from last session have been applied]
+- [ ] [e.g., Auth is working — not in scope to debug this session]
+- [ ] [e.g., The feature branch from last session is still checked out]
+
+---
+
 ## Goal for This Session
 <!-- One clear sentence. What does done look like today?
      Be specific enough that we can verify it at the end. -->

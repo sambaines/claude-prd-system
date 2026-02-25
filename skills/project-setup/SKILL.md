@@ -56,6 +56,7 @@ Proceed?
 **Full mode:**
 ```
 /[PROJECT_PATH]/[PROJECT_NAME]
+├── .gitignore
 ├── CLAUDE.md
 ├── CHANGELOG.md
 └── /docs
@@ -73,6 +74,7 @@ Proceed?
 **Lean mode:**
 ```
 /[PROJECT_PATH]/[PROJECT_NAME]
+├── .gitignore
 ├── CLAUDE.md
 └── /docs
     ├── README.md
@@ -93,6 +95,7 @@ Read these template files before writing each output file:
 
 | Output file | Template source |
 |-------------|----------------|
+| `.gitignore` | `templates/gitignore` |
 | `CLAUDE.md` | `templates/CLAUDE.md` |
 | `CHANGELOG.md` | `templates/CHANGELOG.md` |
 | `docs/README.md` | `templates/docs-README.md` |
@@ -107,7 +110,17 @@ Read these template files before writing each output file:
 
 When writing each file, apply these substitutions:
 
-**Universal (all files):**
+**`.gitignore` — additional substitutions:**
+- Remove sections that clearly don't apply to TYPE. For example:
+  - If TYPE contains no web/Node work, remove the `[WEB / Node / TypeScript]` section
+  - If TYPE is not Rust, remove the `[RUST / SYSTEMS]` section
+  - If TYPE is not Shopify, remove the `[SHOPIFY]` section
+  - If TYPE is not native Mac, remove the `[NATIVE MAC]` section
+  - If TYPE is not a game, remove the `[GAME]` section
+  - Always keep the macOS, Editors, Logs, and Environment/Secrets sections
+- Write the file as `.gitignore` (with the leading dot) at the project root
+
+**Universal (all other files):**
 - Replace `[Project Name]` with `PROJECT_NAME`
 - Replace `[YYYY-MM-DD]` with today's date
 
@@ -151,6 +164,7 @@ After all files are written, output:
 Project scaffolded at [PROJECT_PATH]/[PROJECT_NAME]
 
 Files created:
+  .gitignore
   CLAUDE.md
   CHANGELOG.md          ← [Full only]
   docs/README.md

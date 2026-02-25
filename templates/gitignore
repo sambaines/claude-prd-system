@@ -1,0 +1,74 @@
+# ============================================================
+# .gitignore template — trim sections that don't apply
+# ============================================================
+
+# ---- macOS (all projects) ----------------------------------
+.DS_Store
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+
+# ---- Editors (all projects) --------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# ---- Logs (all projects) -----------------------------------
+*.log
+logs/
+
+# ---- Environment / Secrets (all projects) ------------------
+.env
+.env.local
+.env.*.local
+.env.production
+# Keep .env.example — it documents required vars, contains no secrets
+
+# ============================================================
+# [WEB / Node / TypeScript]
+# ============================================================
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+.turbo/
+.vercel/
+.netlify/
+coverage/
+.nyc_output/
+storybook-static/
+
+# ============================================================
+# [RUST / SYSTEMS]
+# ============================================================
+target/
+# Note: commit Cargo.lock for binaries, add to .gitignore only for libraries
+# Cargo.lock
+
+# ============================================================
+# [SHOPIFY]
+# ============================================================
+# config/settings_data.json  ← uncomment if using theme development
+
+# ============================================================
+# [NATIVE MAC — Electrobun / general macOS builds]
+# ============================================================
+*.dmg
+*.pkg
+*.app
+DerivedData/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# ============================================================
+# [GAME]
+# ============================================================
+# Most game asset binaries should be in .gitignore or LFS
+# *.png  ← only if using LFS for assets
+# *.wav

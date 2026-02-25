@@ -75,6 +75,7 @@ This project is done when:
 
 ### 7.1 [Feature Name]
 **Priority:** Must-have | Should-have | Nice-to-have
+**Status:** Not started | In progress | Complete
 **Serves journey:** [#]
 **Description:** [Plain language]
 **Acceptance criteria:**
@@ -82,7 +83,19 @@ This project is done when:
 
 ---
 
-## 8. Constraints & Assumptions
+## 8. Milestones
+<!-- Group features into phases to define delivery order.
+     Phases don't need dates — relative ordering is enough.
+     Claude: complete earlier phases before starting later ones unless told otherwise. -->
+
+| Phase | Description | Features | Target | Status |
+|-------|-------------|----------|--------|--------|
+| Phase 1 | [name / theme] | [7.1, 7.2] | [date or milestone] | Not started |
+| Phase 2 | [name / theme] | [7.3] | [—] | Not started |
+
+---
+
+## 9. Constraints & Assumptions
 **Hard constraints:**
 - [e.g., Must comply with GDPR]
 - [e.g., Shopify checkout — no custom checkout logic]
@@ -94,7 +107,7 @@ This project is done when:
 
 ---
 
-## 9. Platform-Specific Considerations
+## 10. Platform-Specific Considerations
 <!-- Delete sections that don't apply. -->
 
 **If Shopify:**
@@ -118,13 +131,13 @@ This project is done when:
 
 ---
 
-## 10. Success Metrics
+## 11. Success Metrics
 - [e.g., 80% of users complete onboarding without support]
 - [For POC: e.g., Hypothesis X confirmed or refuted with evidence]
 
 ---
 
-## 11. Open Questions
+## 12. Open Questions
 <!-- Claude does not resolve these unilaterally. Flag and ask. -->
 - [ ] [Question]
 

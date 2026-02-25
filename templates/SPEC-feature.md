@@ -7,6 +7,7 @@
 **Architecture spec:** /docs/SPEC.md#[section]
 **Related ADRs:** [ADR-###]
 **Related specs:** [/docs/specs/other.md]
+**Completes PRD criteria:** [PRODUCT.md#7.x — acceptance criterion text]
 **Project type:** [from CLAUDE.md]
 
 ---

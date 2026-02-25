@@ -227,7 +227,7 @@ is the upkeep.
 ## Templates
 
 All document templates are available at:
-[link to your templates repo / Notion / storage location]
+https://github.com/sambaines/claude-prd-system
 
 Templates included:
 - `CLAUDE.md`

@@ -52,7 +52,8 @@ When a new decision is made during a session, remind the human to log it here.
 **Title:** [Short descriptive title, e.g. "Use JWT over server-side sessions"]
 **Date:** [YYYY-MM-DD]
 **Status:** Active
-**Decided by:** [Human / Claude / Joint]
+**Decided by:** [Owner | Owner (Claude rec.) | Joint]
+<!-- Owner = you decided alone; Owner (Claude rec.) = Claude proposed, you approved; Joint = debated together -->
 **Affects:** [Files or areas: /docs/specs/auth.md, /src/lib/auth/]
 
 #### Context
@@ -88,7 +89,8 @@ When a new decision is made during a session, remind the human to log it here.
 **Title:** [Title]
 **Date:** [YYYY-MM-DD]
 **Status:** Active
-**Decided by:** [Human / Claude / Joint]
+**Decided by:** [Owner | Owner (Claude rec.) | Joint]
+<!-- Owner = you decided alone; Owner (Claude rec.) = Claude proposed, you approved; Joint = debated together -->
 **Affects:** [Files or areas]
 
 #### Context

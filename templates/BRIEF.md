@@ -60,6 +60,25 @@ This is done when:
 
 ---
 
+## How It's Built
+<!-- Key architectural decisions — not the tech stack list, but the structural choices.
+     e.g., "Single HTML file, no build step", "Polling every 30s, no websockets",
+     "SQLite for local storage, no server". Append as decisions are made.
+     If this project graduates to Full mode, these seed SPEC.md and DECISIONS.md. -->
+
+[YYYY-MM-DD] [Architectural choice and why]
+
+---
+
+## Key Decisions
+<!-- Lightweight ADR. Decisions that are non-obvious or worth carrying forward.
+     Claude: flag anything that contradicts an entry here rather than working around it.
+     Format: decision made, why, what was ruled out. -->
+
+- [YYYY-MM-DD] [Decision: what was chosen and why, what was rejected]
+
+---
+
 ## Known Risks / Open Questions
 <!-- Things that might block progress or require a decision.
      Claude flags these rather than deciding unilaterally. -->
@@ -73,3 +92,12 @@ This is done when:
      This becomes the carry-forward context if the POC grows into a full project. -->
 
 [YYYY-MM-DD] [Finding or decision made during this session]
+
+---
+
+## Shortcuts Taken
+<!-- Note any intentional shortcuts, hacks, or known debt created during this project.
+     Be honest — "we didn't validate input because it's internal only" is useful context.
+     If this project graduates to Full mode, these entries seed TECH-DEBT.md. -->
+
+- [YYYY-MM-DD] [What was cut or done quickly, and why it was acceptable here]

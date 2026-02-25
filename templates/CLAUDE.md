@@ -1,7 +1,8 @@
 # CLAUDE.md
 <!-- This file is read at the start of every session.
      Keep it current. It is your standing orders.
-     When in doubt about anything, check here first. -->
+     When in doubt about anything, check here first.
+     Template version: 1.0 -->
 
 ## Project Overview
 [2–3 sentences: what this project is, who it's for, what stage it's at]
@@ -22,6 +23,17 @@
 **Mode:** Full | Lean
 <!-- Full: complete doc system (PRD, SPECS, DECISIONS, Tasks)
      Lean: BRIEF.md only. Use for POCs, internal tools, experiments. -->
+
+---
+
+## Session Start
+<!-- Claude: at the start of every session, follow these steps in order.
+     Do not skip steps or begin work before completing them. -->
+1. Finish reading this file (`CLAUDE.md`) in full
+2. Read `/docs/tasks/current.md` — this defines what we're doing today
+3. Read any specs, ADRs, or context docs referenced in `current.md`
+4. Do not write code or make changes until steps 1–3 are complete
+5. If `current.md` is blank or missing, ask: "What are we working on today?"
 
 ---
 
