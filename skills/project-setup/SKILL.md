@@ -88,7 +88,7 @@ Proceed?
 
 Templates live at:
 ```
-~/Documents/02_Projects/02_templates-and-skills/templates/
+~/Documents/02_CroissantOS/02_templates-and-skills/templates/
 ```
 
 Read these template files before writing each output file:
@@ -190,4 +190,4 @@ Next steps:
 
 - Do not fill in the user's actual tech stack, architecture decisions, or product details. Scaffold only — leave placeholders for the user to complete.
 - If the project directory already exists, warn the user and ask whether to proceed (risk of overwriting files) or abort.
-- If the templates directory cannot be found at `~/Documents/02_Projects/02_templates-and-skills/templates/`, tell the user and ask them to provide the correct path.
+- If the templates directory cannot be found at `~/Documents/02_CroissantOS/02_templates-and-skills/templates/`, tell the user and ask them to provide the correct path.
